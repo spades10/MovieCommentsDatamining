@@ -1,0 +1,163 @@
+=======================================================
+frequent 1-itemsets		support
+=======================================================
+frozenset({'doge'}) 0.008743523316062176
+frozenset({'png'}) 0.04112694300518135
+frozenset({'小破球'}) 0.008257772020725388
+frozenset({'加油'}) 0.01910621761658031
+frozenset({'剧情'}) 0.005343264248704663
+frozenset({'木星'}) 0.005505181347150259
+frozenset({'战狼'}) 0.0051813471502590676
+frozenset({'科幻'}) 0.017810880829015545
+frozenset({'往后'}) 0.007124352331606218
+frozenset({'客观'}) 0.005343264248704663
+frozenset({'壁纸'}) 0.00663860103626943
+frozenset({'spanclass'}) 0.029468911917098446
+frozenset({'显示'}) 0.005343264248704663
+frozenset({'url'}) 0.03610751295336788
+frozenset({'知道'}) 0.007124352331606218
+frozenset({'icon'}) 0.16029792746113988
+frozenset({'ahref'}) 0.010362694300518135
+frozenset({'cn'}) 0.01878238341968912
+frozenset({'觉得'}) 0.012953367875647668
+frozenset({'电影'}) 0.09034974093264249
+frozenset({'国产'}) 0.005343264248704663
+frozenset({'三体'}) 0.005505181347150259
+frozenset({'孟美岐'}) 0.03594559585492228
+frozenset({'default'}) 0.009067357512953367
+frozenset({'好看'}) 0.034974093264248704
+frozenset({'中华'}) 0.005505181347150259
+frozenset({'人类'}) 0.010038860103626942
+frozenset({'width'}) 0.10783678756476683
+frozenset({'科幻片'}) 0.010200777202072539
+frozenset({'希望'}) 0.016677461139896373
+frozenset({'可能'}) 0.0051813471502590676
+frozenset({'继续'}) 0.0051813471502590676
+frozenset({'京哥'}) 0.012305699481865285
+frozenset({'没有'}) 0.01878238341968912
+frozenset({'导演'}) 0.02104922279792746
+frozenset({'支持'}) 0.01829663212435233
+frozenset({'看到'}) 0.007286269430051813
+frozenset({'科幻电影'}) 0.014572538860103627
+frozenset({'good'}) 0.02104922279792746
+frozenset({'今天'}) 0.013115284974093264
+frozenset({'震撼'}) 0.008095854922279792
+frozenset({'期待'}) 0.008743523316062176
+frozenset({'票房'}) 0.016677461139896373
+frozenset({'感觉'}) 0.008095854922279792
+frozenset({'流浪'}) 0.09909326424870467
+frozenset({'中国'}) 0.051489637305699484
+frozenset({'吴京'}) 0.020077720207253884
+frozenset({'有点'}) 0.005019430051813471
+frozenset({'地球'}) 0.14200129533678757
+frozenset({'喜欢'}) 0.012791450777202073
+=======================================================
+frequent 2-itemsets		support
+=======================================================
+frozenset({'default', 'icon'}) 0.009067357512953367
+frozenset({'doge', 'icon'}) 0.008743523316062176
+frozenset({'url', 'icon'}) 0.03610751295336788
+frozenset({'png', 'icon'}) 0.04112694300518135
+frozenset({'spanclass', 'width'}) 0.005343264248704663
+frozenset({'width', 'url'}) 0.01602979274611399
+frozenset({'doge', 'width'}) 0.00858160621761658
+frozenset({'good', 'icon'}) 0.020887305699481867
+frozenset({'流浪', '电影'}) 0.009067357512953367
+frozenset({'电影', '中国'}) 0.009067357512953367
+frozenset({'spanclass', 'url'}) 0.011981865284974092
+frozenset({'地球', '电影'}) 0.013762953367875648
+frozenset({'width', 'icon'}) 0.10783678756476683
+frozenset({'科幻电影', '中国'}) 0.007772020725388601
+frozenset({'width', 'good'}) 0.00858160621761658
+frozenset({'往后', '孟美岐'}) 0.007124352331606218
+frozenset({'中华', '孟美岐'}) 0.005343264248704663
+frozenset({'default', 'width'}) 0.007448186528497409
+frozenset({'spanclass', 'icon'}) 0.028659326424870468
+frozenset({'地球', '中国'}) 0.00663860103626943
+frozenset({'流浪', '地球'}) 0.06363341968911918
+frozenset({'地球', '人类'}) 0.005019430051813471
+frozenset({'孟美岐', '壁纸'}) 0.006476683937823834
+frozenset({'png', 'width'}) 0.03222150259067358
+=======================================================
+frequent 3-itemsets		support
+=======================================================
+frozenset({'spanclass', 'url', 'icon'}) 0.011981865284974092
+frozenset({'png', 'width', 'icon'}) 0.03222150259067358
+frozenset({'地球', '流浪', '电影'}) 0.005019430051813471
+frozenset({'width', 'good', 'icon'}) 0.00858160621761658
+frozenset({'doge', 'width', 'icon'}) 0.00858160621761658
+frozenset({'spanclass', 'width', 'icon'}) 0.005343264248704663
+frozenset({'default', 'width', 'icon'}) 0.007448186528497409
+frozenset({'width', 'url', 'icon'}) 0.01602979274611399
+=======================================================
+Rules
+=======================================================
+frozenset({'default'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'doge'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'url'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'icon'})===>frozenset({'url'})  conf: 0.2252525252525253
+frozenset({'png'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'icon'})===>frozenset({'png'})  conf: 0.2565656565656566
+frozenset({'spanclass'})===>frozenset({'width'})  conf: 0.1813186813186813
+frozenset({'url'})===>frozenset({'width'})  conf: 0.4439461883408072
+frozenset({'width'})===>frozenset({'url'})  conf: 0.14864864864864866
+frozenset({'doge'})===>frozenset({'width'})  conf: 0.9814814814814814
+frozenset({'icon'})===>frozenset({'good'})  conf: 0.1303030303030303
+frozenset({'good'})===>frozenset({'icon'})  conf: 0.9923076923076924
+frozenset({'电影'})===>frozenset({'流浪'})  conf: 0.10035842293906809
+frozenset({'电影'})===>frozenset({'中国'})  conf: 0.10035842293906809
+frozenset({'中国'})===>frozenset({'电影'})  conf: 0.1761006289308176
+frozenset({'spanclass'})===>frozenset({'url'})  conf: 0.40659340659340654
+frozenset({'url'})===>frozenset({'spanclass'})  conf: 0.3318385650224215
+frozenset({'电影'})===>frozenset({'地球'})  conf: 0.15232974910394265
+frozenset({'icon'})===>frozenset({'width'})  conf: 0.6727272727272727
+frozenset({'width'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'科幻电影'})===>frozenset({'中国'})  conf: 0.5333333333333333
+frozenset({'中国'})===>frozenset({'科幻电影'})  conf: 0.1509433962264151
+frozenset({'good'})===>frozenset({'width'})  conf: 0.4076923076923077
+frozenset({'往后'})===>frozenset({'孟美岐'})  conf: 1.0
+frozenset({'孟美岐'})===>frozenset({'往后'})  conf: 0.1981981981981982
+frozenset({'孟美岐'})===>frozenset({'中华'})  conf: 0.14864864864864863
+frozenset({'中华'})===>frozenset({'孟美岐'})  conf: 0.9705882352941178
+frozenset({'default'})===>frozenset({'width'})  conf: 0.8214285714285714
+frozenset({'spanclass'})===>frozenset({'icon'})  conf: 0.9725274725274725
+frozenset({'icon'})===>frozenset({'spanclass'})  conf: 0.1787878787878788
+frozenset({'中国'})===>frozenset({'地球'})  conf: 0.1289308176100629
+frozenset({'流浪'})===>frozenset({'地球'})  conf: 0.6421568627450981
+frozenset({'地球'})===>frozenset({'流浪'})  conf: 0.44811858608893956
+frozenset({'人类'})===>frozenset({'地球'})  conf: 0.5
+frozenset({'壁纸'})===>frozenset({'孟美岐'})  conf: 0.9756097560975608
+frozenset({'孟美岐'})===>frozenset({'壁纸'})  conf: 0.18018018018018014
+frozenset({'png'})===>frozenset({'width'})  conf: 0.7834645669291339
+frozenset({'width'})===>frozenset({'png'})  conf: 0.29879879879879884
+frozenset({'spanclass'})===>frozenset({'url', 'icon'})  conf: 0.40659340659340654
+frozenset({'url'})===>frozenset({'spanclass', 'icon'})  conf: 0.3318385650224215
+frozenset({'url', 'icon'})===>frozenset({'spanclass'})  conf: 0.3318385650224215
+frozenset({'spanclass', 'url'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'spanclass', 'icon'})===>frozenset({'url'})  conf: 0.4180790960451977
+frozenset({'png'})===>frozenset({'width', 'icon'})  conf: 0.7834645669291339
+frozenset({'icon'})===>frozenset({'png', 'width'})  conf: 0.20101010101010106
+frozenset({'width'})===>frozenset({'png', 'icon'})  conf: 0.29879879879879884
+frozenset({'png', 'icon'})===>frozenset({'width'})  conf: 0.7834645669291339
+frozenset({'width', 'icon'})===>frozenset({'png'})  conf: 0.29879879879879884
+frozenset({'png', 'width'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'流浪', '电影'})===>frozenset({'地球'})  conf: 0.5535714285714286
+frozenset({'地球', '电影'})===>frozenset({'流浪'})  conf: 0.36470588235294116
+frozenset({'good'})===>frozenset({'width', 'icon'})  conf: 0.4076923076923077
+frozenset({'good', 'icon'})===>frozenset({'width'})  conf: 0.4108527131782945
+frozenset({'width', 'good'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'doge'})===>frozenset({'width', 'icon'})  conf: 0.9814814814814814
+frozenset({'doge', 'icon'})===>frozenset({'width'})  conf: 0.9814814814814814
+frozenset({'doge', 'width'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'spanclass'})===>frozenset({'width', 'icon'})  conf: 0.1813186813186813
+frozenset({'spanclass', 'width'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'spanclass', 'icon'})===>frozenset({'width'})  conf: 0.18644067796610167
+frozenset({'default'})===>frozenset({'width', 'icon'})  conf: 0.8214285714285714
+frozenset({'default', 'icon'})===>frozenset({'width'})  conf: 0.8214285714285714
+frozenset({'default', 'width'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'url'})===>frozenset({'width', 'icon'})  conf: 0.4439461883408072
+frozenset({'icon'})===>frozenset({'width', 'url'})  conf: 0.10000000000000002
+frozenset({'width'})===>frozenset({'url', 'icon'})  conf: 0.14864864864864866
+frozenset({'url', 'icon'})===>frozenset({'width'})  conf: 0.4439461883408072
+frozenset({'width', 'url'})===>frozenset({'icon'})  conf: 1.0
+frozenset({'width', 'icon'})===>frozenset({'url'})  conf: 0.14864864864864866

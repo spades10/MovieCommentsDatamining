@@ -1,4 +1,10 @@
-source_data：爬取的数据删除空值和无意义值后以一行一条形式存储。时光网短评未使用
-最终结果全在result中:
-情感分析中LSTM对短评论效果不好，微博情感分析采用基于哈工大ltp的语义情感分析，新闻和豆瓣使用LSTM
-resul_news中sorted_top_50为textrank输出最重要的50篇按时间排序，abstact_news为对排序的新闻生成摘要，得到事件大致流程。
+# MovieCommentsDataMining
+data mining for movie comments
+# 
+# Install
+'''git clone https://github.com/Bruce-yi/MovieCommentsDatamining
+'''cd MovieCommentsDataMining
+'''pip install requirements.txt
+# Samples
+## douban
+![word cloud](https://github.com/Bruce-yi/MovieCommentsDatamining/blob/master/sample/cloud_douban.jpg)

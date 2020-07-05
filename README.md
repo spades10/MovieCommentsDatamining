@@ -43,7 +43,8 @@ using Apriori to mine frequency and association
 ```
 python association main.py
 ```
-# Notice
+# Notes
+Because the project is divided into a several steps, you need to gain previous step's result before starting next step. Also, arranging all the result into a common folder is a nice choice.
 # Samples
 ## douban
 word frenquency chart  

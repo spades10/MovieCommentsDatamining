@@ -1,7 +1,7 @@
 import os, sys
 import importlib
 importlib.reload(sys)
-from 情感分析.DocSentimentAnalysis.DocSentimentAnalysis2 import *
+from emotion_analysis.DocSentimentAnalysis.DocSentimentAnalysis2 import *
 
 # f = open('../../source_data/all_weibo.txt', 'r', encoding='utf-8')
 # f = open('../../source_data/man_weibo.txt', 'r', encoding='utf-8')

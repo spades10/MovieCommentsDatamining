@@ -1,5 +1,5 @@
 import sys
-from 情感分析.DocSentimentAnalysis.sentence_parser import *
+from emotion_analysis.DocSentimentAnalysis.sentence_parser import *
 import ahocorasick
 import jieba
 import re

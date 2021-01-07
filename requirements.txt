@@ -1,7 +1,7 @@
 pandas==0.23.0
 numpy==1.14.3
 requests==2.20.0
-lxml==4.2.1
+lxml==4.6.2
 matplotlib==2.2.2
 ahocorasick==0.9
 gensim==3.8.3
